@@ -35,8 +35,6 @@ $ yarn install
 ## Running the app
 
 ```bash
-# development
-$ yarn run start
 
 # watch mode
 $ yarn run start:dev
@@ -45,28 +43,19 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-## Test
+## Endpoints API
 
-```bash
-# unit tests
-$ yarn run test
+GET http://localhost:3007/users
 
-# e2e tests
-$ yarn run test:e2e
+GET http://localhost:3007/users/posts
 
-# test coverage
-$ yarn run test:cov
-```
+GET http://localhost:3007/users/posts/comments
 
-## Support
+POST http://localhost:3007/users
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## We created: users - entity
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Module and Controller
 
 ## License
 
