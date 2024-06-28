@@ -33,6 +33,8 @@ GET http://localhost:3007/users/posts/comments
 
 POST http://localhost:3007/users
 
+POST http://127.0.0.1:3007/users/create
+
 ## We created: users - entity
 
 Module and Controller
