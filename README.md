@@ -57,6 +57,21 @@ POST http://localhost:3007/users
 
 Module and Controller
 
-## License
+## API postman or cURL
 
-Nest is [MIT licensed](LICENSE).
+POST:
+
+curl --location --request POST 'http://127.0.0.1:3007/users' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username": "Alessandro",
+    "email": "alessandro@gmail.com"
+}'
+
+curl --location --request POST 'http://127.0.0.1:3007/users' \
+--data ''
+
+GET:
+
+curl --location --request GET 'http://127.0.0.1:3007/users' \
+--data ''
