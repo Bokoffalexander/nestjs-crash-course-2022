@@ -59,7 +59,7 @@ Module and Controller
 
 ## API postman or cURL
 
-POST:
+# POST:
 
 curl --location --request POST 'http://127.0.0.1:3007/users' \
 --header 'Content-Type: application/json' \
@@ -71,7 +71,7 @@ curl --location --request POST 'http://127.0.0.1:3007/users' \
 curl --location --request POST 'http://127.0.0.1:3007/users' \
 --data ''
 
-GET:
+# GET:
 
 curl --location --request GET 'http://127.0.0.1:3007/users' \
 --data ''
